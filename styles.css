@@ -1,0 +1,62 @@
+
+body {
+    background-color: #f0e68c; /* Soft yellow background */
+    font-family: 'Comic Sans MS', cursive;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #f4a460; /* Sandy brown container */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.animal-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.animal img {
+    width: 50px;
+    height: 50px;
+}
+
+.problem {
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+input[type="number"] {
+    font-size: 2em;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 15px 30px;
+    background-color: #98fb98; /* Pale green button */
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #32cd32; /* Lime green hover effect */
+}
